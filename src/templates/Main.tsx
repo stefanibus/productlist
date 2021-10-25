@@ -49,7 +49,7 @@ const Main = (props: IMainProps) => (
             <li className="mr-6">
               <a
                 className="text-gray-700  border-b-4 hover:border-red-900 "
-                href="https://github.com/stefanibus/bolierplateNextjs"
+                href="https://github.com/stefanibus/productlist"
               >
                 GitHub
               </a>

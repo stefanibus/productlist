@@ -1,10 +1,10 @@
 # REST API, Dynamic product list, component based CSS with Next JS 11+, Tailwind CSS 2.0 and TypeScript
 
-###### Demo on Netlify: https://kind-varahamihira-d1968f.netlify.app/
+###### Demo on Vercel: https://productlist.vercel.app/products/ 
 
-[![Sponsor Next JS Boilerplate](https://raw.githubusercontent.com/stefanibus/bolierplateNextjs/main/public/assets/images/nextjs-starter-banner.png?raw=true)](https://kind-varahamihira-d1968f.netlify.app//)
+[![Sponsor Next JS Boilerplate](https://raw.githubusercontent.com/stefanibus/productlist/main/public/assets/images/rest-api.png?raw=true)](https://productlist.vercel.app/products/)
 
-🚀 Next.js, Tailwind CSS and TypeScript ⚡️ ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify.
+🚀 Next.js, Tailwind CSS and TypeScript ⚡️ ESLint, Prettier, Husky, Lint-Staged, VSCode, Vercel.
 
 ### Features
 
@@ -45,7 +45,7 @@ Built-in feature from Next.js:
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/bolierplateNextjs.git my-project-name
+git clone --depth=1 https://github.com/stefanibus/productlist.git my-project-name
 cd my-project-name
 npm install
 ```
