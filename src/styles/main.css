@@ -21,7 +21,11 @@ a {
 a:hover {
   @apply border-b-2 border-blue-700;
 }
-
+ 
+.active a {
+  @apply border-red-900 border-b-2; 
+}
+ 
 .content p {
   @apply my-6;
 }

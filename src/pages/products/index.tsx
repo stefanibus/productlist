@@ -11,7 +11,7 @@ const Products = ({ productlist }: any) => {
       <Main
         meta={<Meta title="Products Result-List" description="Productlist" />}
       >
-        <h2 className="text-xl text-center pt-10 font-bold text-gray-900 text-4xl">
+        <h2 className="text-center pt-10 font-bold text-gray-900 text-4xl">
           recommended products * best *
         </h2>
         <ProductlistTwo productlist={productlist} />

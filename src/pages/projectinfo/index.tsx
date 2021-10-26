@@ -19,7 +19,7 @@ const Index = () => {
     >
       <div className="max-w-2xl  m-auto">
         &nbsp;
-        <a href="https://github.com/stefanibus/Next-js-Boilerplate">
+        <a href="https://github.com/stefanibus/bolierplateNextjs">
           <img
             src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
             alt="Nextjs starter banner"

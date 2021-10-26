@@ -2,7 +2,7 @@
 
 import { ReactNode } from 'react'
 
-import Link from 'next/link'
+import Nav from '../components/navigation'
 
 import { AppConfig } from '../utils/AppConfig'
 
@@ -24,37 +24,9 @@ const Main = (props: IMainProps) => (
           <div className="text-xl">{AppConfig.description}</div>
         </div>
         <div>
-          <ul className="flex flex-wrap text-xl justify-center">
-            <li className="mr-6">
-              <Link href="/">
-                <a className="text-gray-700 border-b-4 hover:border-red-900">
-                  Home / The Challenge
-                </a>
-              </Link>
-            </li>
-            <li className="mr-6">
-              <Link href="/products/">
-                <a className="text-gray-700  border-b-4 hover:border-red-900 ">
-                  The Result
-                </a>
-              </Link>
-            </li>
-            <li className="mr-6">
-              <Link href="/projectinfo">
-                <a className="text-gray-700  border-b-4 hover:border-red-900 ">
-                  Projectinfo
-                </a>
-              </Link>
-            </li>
-            <li className="mr-6">
-              <a
-                className="text-gray-700  border-b-4 hover:border-red-900 "
-                href="https://github.com/stefanibus/productlist"
-              >
-                GitHub
-              </a>
-            </li>
-          </ul>
+
+          <Nav />
+         
         </div>
       </div>
 
