@@ -4,11 +4,17 @@
 
 [![Sponsor Next JS Boilerplate](https://raw.githubusercontent.com/stefanibus/productlist/main/public/assets/images/rest-api.png?raw=true)](https://productlist.vercel.app/products/)
 
-🚀 Next.js, Tailwind CSS and TypeScript ⚡️ ESLint, Prettier, Husky, Lint-Staged, VSCode, Vercel.
+🚀 Next.js, Tailwind CSS and TypeScript ⚡️ ESLint, Prettier, Husky, Lint-Staged, VSCode, Vercel. 
+
+REST API is requested serverside via ISG ( [Incremental Site Generation](https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/) ) to create and deliver Static Pages for all ProductDetail-Pages while at the same time the data gets revalidated in hindsight after 100 seconds on the server. 
+
+Dynamic product list on the Product-Page
+
+Component based CSS with Next JS 11+, Tailwind CSS 2.0 and TypeScript
 
 ### Features
 
-- 🔥 [Next.js](https://nextjs.org) for Static Site Generator
+- 🔥 [Next.js](https://nextjs.org) for Incremental Site Generation ( Static Site Generator   )
 - 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com) (w/ JIT mode)
 - 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
 - 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
